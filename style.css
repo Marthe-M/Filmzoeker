@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(26, 43, 78);
+  color: rgb(190, 255, 239);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 3vw;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+label {
+  font-size: 1.5vw;
+  padding-right: 20px;
+}
+
+input[type="radio"] {
+  width: 15px;
+  height: 15px;
+}
+
+.nav-list label:hover {
+  text-shadow: 2px 2px #5d818b;
+}
+
+img {
+  padding: 25px;
+  width: 175px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+li {
+  position: relative;
+}
+
+li a {
+  display: block;
+  position: absolute;
+  height: 95%;
+  width: 95%;
+}
